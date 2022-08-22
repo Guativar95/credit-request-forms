@@ -1,5 +1,6 @@
 import React from "react";
 import DatosCredito from '../components/DatosCredito/DatosCredito'
+import AutoDatosPerson from '../components/AutoDatosPerson/AutoDatosPerson'
 
 const Layout = () => {
   return (
@@ -11,9 +12,8 @@ const Layout = () => {
           </h1>
         </div>
       </div>
-      <DatosCredito>
-
-      </DatosCredito>
+      <DatosCredito/>
+      <AutoDatosPerson/>
     </section>
   );
 };
