@@ -1,0 +1,19 @@
+body{
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid var(--VerdeOscuro);
+  border-radius: 6px;
+  font-family: "Montserrat"!important;
+}
+
+h1{
+  font-size: 32px;
+}
+
+h2{
+  font-size: 24px;
+}

@@ -1,0 +1,19 @@
+@import url(./global.css);
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.infoCredito{
+    text-align: center;
+}
+
+.Solicitud {
+    color: var(--VerdeOscuro);
+    font-weight: 700;
+}
+
+.tipoCredito{
+    color: var(--VerdeClaro);
+    font-weight: 700;
+}

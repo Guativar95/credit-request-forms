@@ -1,0 +1,14 @@
+:root {
+    --VerdeOscuro: rgb(0 126 114);
+    --VerdeOscuro80: rgba(0, 126, 113, 0.80);
+    --VerdeOscuro60: rgba(0, 126, 113, 0.60);
+    --VerdeOscuro30: rgba(0, 126, 113, 0.30);
+    --TextColorInput: rgba(163, 164, 163,0.25);
+    --VerdeClaro: rgb(164 210 51);
+    --font-family: 'Open Sans';
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
