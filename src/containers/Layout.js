@@ -4,16 +4,20 @@ import AutoDatosPerson from '../components/AutoDatosPerson/AutoDatosPerson'
 
 const Layout = () => {
   return (
-    <section>
-      <div className='infoCredito'>
-        <div class="text-center">
-          <h1 class="Solicitud">
-            Solicitud de <span class="tipoCredito">Crédito Educativo</span>
-          </h1>
+    <section className="container">
+
+      <div className="containers">
+        <div className='infoCredito'>
+          <div class="titleSoli">
+            <h1 class="Solicitud">
+              Solicitud de <span class="tipoCredito">Crédito Educativo</span>
+            </h1>
+          </div>
         </div>
+        <DatosCredito/>
+        <AutoDatosPerson/>
+        <button className=""></button>
       </div>
-      <DatosCredito/>
-      <AutoDatosPerson/>
     </section>
   );
 };

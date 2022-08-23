@@ -1,0 +1,10 @@
+@import url(./global.css);
+
+.tilte-primare{
+    color: var(--VerdeOscuro);
+    font-weight: 700;
+}
+
+.title-success{
+    color: var(--VerdeClaro);
+}

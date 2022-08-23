@@ -5,6 +5,9 @@
     --VerdeOscuro30: rgba(0, 126, 113, 0.30);
     --TextColorInput: rgba(163, 164, 163,0.25);
     --VerdeClaro: rgb(164 210 51);
+    --VerdeClaro80: rgba(165, 210, 51, 0.80);
+    --VerdeClaro60: rgba(165, 210, 51, 0.60);
+    --VerdeClaro30: rgba(165, 210, 51, 0.30);
     --font-family: 'Open Sans';
   }
 
@@ -12,3 +15,8 @@
     margin: 0;
     padding: 0;
   }
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}

@@ -1,15 +1,16 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import CreditEducat from './pages/CreditEducat/CreditEducat'
+import './styles/styles.scss'
 import './styles/App.css';
-import Layout from './containers/Layout';
+
 
 function App() {
   return (
     <BrowserRouter> 
-      <Layout>
-        <Routes>
-        </Routes> 
-      </Layout>
+      <CreditEducat>
+
+      </CreditEducat>
     </BrowserRouter>
   );
 }
