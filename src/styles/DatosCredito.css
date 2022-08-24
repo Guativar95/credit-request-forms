@@ -1,96 +1,11 @@
 @import url(../styles/global.css);
 
-
-.inforDatosC {
-    width: 100%;
-    margin: 10px 0 20px 20px;
-}
-
-.tituloDatosC {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    color: var(--VerdeOscuro) ;
-    width: 100%;  
-}
-
-.infoCredi {
-    width: 100%;
-    height: 100px;
-    margin: 20px 50px 10px 50px;
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-}
-
-/* Se desactiva los fechas  */
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-}
-
-.inputBox {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    position: relative;
+.SeccionCredito {
 
 }
 
-.inputBox input {
-    width: 100%;
-    padding: 10px;
-    font-size: 24px;
-    border: 2px solid var(--VerdeOscuro30);
-    border-radius: 5px;
-    outline: none;
-}
-
-.inputBox  span {
-    position: absolute;
-    padding: 10px;
-    pointer-events: none;
-    text-transform: uppercase;
-    transition: 0.5s;
-}
-
-.inputBox input:valid ~ span,
-.inputBox input:focus ~ span{
-    color: black;
-    transform: translateX(10px) translateY(-30px);
-    font-size: 12px;
-    padding: 0 10px;
-    background-color: aliceblue;
-    border-left: 1px solid var(--VerdeClaro);
-    border-right: 1px solid var(--VerdeClaro);
-}
-
-input.inputD {
-    margin: 4px;
-    padding: 2px;
-    position: relative;
-    display: grid;
-    width: 500px;
-    height: 50px;
-}
-
-.textInput {
-    color: rgba(16, 1, 1, 0.40);
-    font-size: 30px;
-}
-
-
-
-.campoRequerido{
-    padding: 10px;
-    font-size: 30px;
-    color: rgba(255, 0, 0, 0.80) ;
-    position: relative;
-}
-
-.textInput.campoRequerido input:valid ~ span,
-.textInput.campoRequerido input:focus ~ span{
-    transform: translateX(10px) translateY(-30px);
-    font-size: 8px;
-    padding: 0 10px;
+.section-title {
+    color: var(--VerdeOscuro);
+    font-weight: 700;
+    font-family: var(--font-family);
 }

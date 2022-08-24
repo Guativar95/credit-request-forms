@@ -1,4 +1,10 @@
 @import url(./global.css);
+body{
+    height: 100%;
+    width: 100%;
+    border:  1px solid var(--VerdeOscuro);
+    border-radius: 5px;
+}
 
 .container {
     display: grid;

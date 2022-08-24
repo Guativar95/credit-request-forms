@@ -1,0 +1,18 @@
+.tabpanel ul{
+    width: 100%;
+    justify-content: center;
+    border: none;
+}
+
+ul li {
+    width: 30px;
+    text-align: center;
+    position: inherit;
+    border: 2px solid var(--VerdeOscuro80);
+    border-radius: 50px;
+}
+
+li {
+    color: var(--Text-opaco);
+}
+

@@ -1,6 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import CreditEducat from './pages/CreditEducat/CreditEducat'
+// Componentes
+import Layout from './containers/Layout';
+
+// Estilos 
 import './styles/styles.scss'
 import './styles/App.css';
 
@@ -8,9 +11,11 @@ import './styles/App.css';
 function App() {
   return (
     <BrowserRouter> 
-      <CreditEducat>
-
-      </CreditEducat>
+        <Layout>
+          <Routes>
+            
+          </Routes>
+        </Layout>
     </BrowserRouter>
   );
 }
