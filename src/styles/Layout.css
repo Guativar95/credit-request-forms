@@ -1,18 +1,15 @@
-.tabpanel ul{
-    width: 100%;
-    justify-content: center;
-    border: none;
+footer{
+    align-content: center;
+}
+button.btnform {
+    
+    margin: 8px;
+    color: var(--VerdeOscuro);
+    border: 2px solid var(--VerdeOscuro);
 }
 
-ul li {
-    width: 30px;
-    text-align: center;
-    position: inherit;
-    border: 2px solid var(--VerdeOscuro80);
-    border-radius: 50px;
+button.btnform:hover{
+    color: white;
+    border: 2px solid var(--VerdeOscuro);
+    background-color: var(--VerdeOscuro) ;
 }
-
-li {
-    color: var(--Text-opaco);
-}
-
