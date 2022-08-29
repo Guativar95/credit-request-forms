@@ -1,0 +1,10 @@
+div.contenedormovi{
+    width: 98%;
+}
+
+.movimientos-intern {
+    width: 100%;
+    border: 1px solid var(--Text-opaco);
+    display: flex;
+    justify-content: center;
+}

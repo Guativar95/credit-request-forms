@@ -2,8 +2,8 @@
 body{
     height: 100%;
     width: 100%;
-    border:  1px solid var(--VerdeOscuro);
-    border-radius: 5px;
+    border:  px solid var(--VerdeOscuro);
+    border-radius: px;
 }
 
 .container {

@@ -1,3 +1,9 @@
-input.btn-group {
+div.optionresid label{
+    background-color: aquamarine;
     border: 1px solid var(--VerdeOscuro);
 }
+
+label .btn-check {
+    background-color: aquamarine;
+}
+

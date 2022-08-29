@@ -6,17 +6,6 @@ body{
   grid-column: 1fr;
 }
 
-h1{
-  font-family: 'Open Sans'!important;
-  font-size: 60px;
-}
 
-h2{
-  font-family: 'Open Sans'!important;
-  font-size: 50px;
-}
 
-h3 {
-  font-family: 'Open Sans'!important;
-  font-size: 30PX;
-}
+

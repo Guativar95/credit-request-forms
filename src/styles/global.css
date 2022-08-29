@@ -9,12 +9,14 @@
     --VerdeClaro60: rgba(165, 210, 51, 0.60);
     --VerdeClaro30: rgba(165, 210, 51, 0.30);
     --font-family: 'Open Sans';
-    --Text-opaco¨: rgba(163 164 163);
+    --Text-opaco: rgba(163 164 163);
   }
 
   body {
     margin: 0;
     padding: 0;
+    border: 2px solid var(--VerdeOscuro) !important;
+    border-radius: 5px;
   }
 
 input[type=number]::-webkit-inner-spin-button, 

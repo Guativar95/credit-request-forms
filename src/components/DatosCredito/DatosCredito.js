@@ -1,14 +1,15 @@
 import React from "react";
 import "../../styles/DatosCredito.css";
 
+
 //Componentes 
 import AutoDatosPerson from "../AutoDatosPerson/AutoDatosPerson"
 
 function DatosCredito() {
   return (
     <div className="SeccionCredito p-1 row">
-      <h4 class="section-title my-3">
-
+      <h4 className="section-title my-3">
+      <svg  id="creditcard" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 432c0 26.5 21.5 48 48 48h480c26.5 0 48-21.5 48-48V256H0v176zm192-68c0-6.6 5.4-12 12-12h136c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H204c-6.6 0-12-5.4-12-12v-40zm-128 0c0-6.6 5.4-12 12-12h72c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zM576 80v48H0V80c0-26.5 21.5-48 48-48h480c26.5 0 48 21.5 48 48z"/></svg>
         Datos de tu crédito:
       </h4>
       <div class="col-12 col-md-6 mb-2">

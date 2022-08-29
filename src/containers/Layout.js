@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
+
 // Estilos 
 import "../styles/Layout.css"
 
@@ -8,7 +9,8 @@ import CreditEducat from "../pages/CreditEducat/CreditEducat";
 import DatosCredito from "../components/DatosCredito/DatosCredito"
 import DatosPerson from '../components/DatosPerson/DatosPerson';
 import DatosResid from '../components/DatosResid/DatosResid';
-
+import DatosLabo from '../components/DatosLabo/DatosLabo'
+import Multifors from '../components/ui/Multiforms/Multiforms'
 
 
 const Layout = ()=>{
@@ -23,42 +25,43 @@ const Layout = ()=>{
   if(step==0){
   
   return (
-  <Login /> );
+  <InfoCredit /> );
   
   }else if(step==1){
   
   return (
-  <Contact /> );
+  <InfoContact /> );
   
   }else if(step==2){
   
   return (
-  <Social /> );
+  <InfoResid /> );
   
   }else if(step==3){
   
   return (
-  <Welcome /> );
+  <InfoLabo /> );
   }
   }
-  const Login = () =>{
+  const InfoCredit = () =>{
   
   return (
-  <>
+  <div >
     <CreditEducat>
-   
     </CreditEducat>
     <DatosCredito/>
     <div className="footer">
-          <button className="btnform  btn btn-outline-fz btn-lg mt-3 rounded-pill" disabled onClick={()=>{setStep(step-1)}}>Previous</button>
+          
           <button className="btnform btn btn-outline-fz btn-lg mt-3 rounded-pill" onClick={()=>{setStep(step+1)}}>Next</button>
       </div>
-  </>
+
+
+  </div>
   );
   }
   
   
-  const Contact = () =>{
+  const InfoContact = () =>{
   
   return (
   <>
@@ -66,15 +69,16 @@ const Layout = ()=>{
     </CreditEducat>
     <DatosPerson/>
     <div className="footer">
-          <button className="btnform  btn btn-outline-fz btn-lg mt-3 rounded-pill"  onClick={()=>{setStep(step-1)}}>Previous</button>
+          <button className="btnform  btn btn-outline-fz btn-lg mt-3 rounded-pill" onClick={()=>{setStep(step-1)}}>Previous</button>
           <button className="btnform btn btn-outline-fz btn-lg mt-3 rounded-pill" onClick={()=>{setStep(step+1)}}>Next</button>
       </div>
+
   </>
   );
   }
   
   
-  const Social = () =>{
+  const InfoResid = () =>{
   
   return (
   <>
@@ -90,12 +94,15 @@ const Layout = ()=>{
   }
   
   
-  const Welcome = () =>{
+  const InfoLabo = () =>{
   
   return (
-  <>
-    <div className="footer">
-          <button className="btnform  btn btn-outline-fz btn-lg mt-3 rounded-pill"  onClick={()=>{setStep(step-1)}}>Previous</button>
+    <>
+    <CreditEducat>
+    </CreditEducat>
+    <DatosLabo/>
+      <div className="footer">
+          <button className="btnform  btn btn-outline-fz btn-lg mt-3 rounded-pill" onClick={()=>{setStep(step-1)}}>Previous</button>
           <button className="btnform btn btn-outline-fz btn-lg mt-3 rounded-pill" onClick={()=>{setStep(step+1)}}>Next</button>
       </div>
   </>
@@ -109,7 +116,7 @@ const Layout = ()=>{
   
   <>
       <div class="form">
-          <div className="card">
+          <div>
               <div>{
                   <Form />}</div>
           </div>
