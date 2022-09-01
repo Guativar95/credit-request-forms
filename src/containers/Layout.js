@@ -52,7 +52,7 @@ const Layout = ()=>{
     <DatosCredito/>
     <div className="footer">
           
-          <button className="btnform btn btn-outline-fz btn-lg mt-3 rounded-pill" onClick={()=>{setStep(step+1)}}>Next</button>
+          <button className="btn btn-outline-fz btn-lg mt-3 rounded-pill" onClick={()=>{setStep(step+1)}}>Next</button>
       </div>
 
 
@@ -69,8 +69,8 @@ const Layout = ()=>{
     </CreditEducat>
     <DatosPerson/>
     <div className="footer">
-          <button className="btnform  btn btn-outline-fz btn-lg mt-3 rounded-pill" onClick={()=>{setStep(step-1)}}>Previous</button>
-          <button className="btnform btn btn-outline-fz btn-lg mt-3 rounded-pill" onClick={()=>{setStep(step+1)}}>Next</button>
+          <button className="  btn btn-outline-fz btn-lg mt-3 rounded-pill" onClick={()=>{setStep(step-1)}}>Previous</button>
+          <button className="btn btn-outline-fz btn-lg mt-3 rounded-pill" onClick={()=>{setStep(step+1)}}>Next</button>
       </div>
 
   </>
@@ -86,8 +86,8 @@ const Layout = ()=>{
     </CreditEducat>
     <DatosResid/>
       <div className="footer">
-          <button className="btnform  btn btn-outline-fz btn-lg mt-3 rounded-pill" onClick={()=>{setStep(step-1)}}>Previous</button>
-          <button className="btnform btn btn-outline-fz btn-lg mt-3 rounded-pill" onClick={()=>{setStep(step+1)}}>Next</button>
+          <button className="btn btn-outline-fz btn-lg mt-3 rounded-pill" onClick={()=>{setStep(step-1)}}>Previous</button>
+          <button className="btn btn-outline-fz btn-lg mt-3 rounded-pill" onClick={()=>{setStep(step+1)}}>Next</button>
       </div>
   </>
   );
@@ -102,8 +102,8 @@ const Layout = ()=>{
     </CreditEducat>
     <DatosLabo/>
       <div className="footer">
-          <button className="btnform  btn btn-outline-fz btn-lg mt-3 rounded-pill" onClick={()=>{setStep(step-1)}}>Previous</button>
-          <button className="btnform btn btn-outline-fz btn-lg mt-3 rounded-pill" onClick={()=>{setStep(step+1)}}>Next</button>
+          <button className="btn btn-outline-fz btn-lg mt-3 rounded-pill" onClick={()=>{setStep(step-1)}}>Previous</button>
+          <button className="btn btn-outline-fz btn-lg mt-3 rounded-pill" onClick={()=>{setStep(step+1)}}>Next</button>
       </div>
   </>
   );

@@ -3,8 +3,8 @@ import React from 'react';
 const DatosPerson = () => {
     return (
         
-        <div className="DataPerson p-1 row">
-          <div className="col-12 col-md-6 mb-2">
+        <div className="DataPerson p-2 row">
+          <div className="col-12 col-md-6 mb-3">
             <div className="form-floating">
               <input
                 type="text"
@@ -17,7 +17,7 @@ const DatosPerson = () => {
               <label for="PrimerNombre">Primer Nombre*</label>
             </div>
           </div>
-          <div className="col-12 col-md-6 mb-2">
+          <div className="col-12 col-md-6 mb-3">
             <div className="form-floating">
               <input
                 type="text"
@@ -30,7 +30,7 @@ const DatosPerson = () => {
               <label for="PrimerNombre">Segundo Nombre*</label>
             </div>
           </div>
-          <div className="col-12 col-md-6 mb-2">
+          <div className="col-12 col-md-6 mb-3">
             <div className="form-floating">
               <input
                 type="text"
@@ -49,7 +49,7 @@ const DatosPerson = () => {
             </div>
           </div>
 
-          <div className="col-12 col-md-6 mb-2">
+          <div className="col-12 col-md-6 mb-3">
             <div className="form-floating">
               <select
                 className="form-control ng-pristine ng-empty ng-invalid ng-invalid-required ng-valid-alphanumeric ng-touched"
@@ -100,7 +100,7 @@ const DatosPerson = () => {
             </div>
           </div>
 
-          <div className="col-12 col-md-6 mb-2">
+          <div className="col-12 col-md-6 mb-3">
             <div className="form-floating">
               <input
                 type="text"
@@ -113,7 +113,7 @@ const DatosPerson = () => {
               <label for="PrimerNombre">Número de identificación*</label>
             </div>
           </div>
-          <div className="col-12 col-md-6 mb-2">
+          <div className="col-12 col-md-6 mb-3">
             <div className="form-floating">
               <input
                 type="date"
@@ -129,7 +129,7 @@ const DatosPerson = () => {
             </div>
           </div>
 
-          <div className="col-12 col-md-6 mb-2">
+          <div className="col-12 col-md-6 mb-3">
             <div className="form-floating">
               <select
                 className="form-select ng-pristine ng-empty ng-invalid ng-invalid-required ng-touched"
@@ -412,7 +412,7 @@ const DatosPerson = () => {
               <label for="DepartamentoID">Departamento de residencia*</label>
             </div>
           </div>
-          <div class="col-12 col-md-6 mb-2">
+          <div class="col-12 col-md-6 mb-3">
             <div class="form-floating">
               <select
                 class="form-select ng-pristine ng-empty ng-invalid ng-invalid-required ng-touched"

@@ -7,12 +7,12 @@ import AutoDatosPerson from "../AutoDatosPerson/AutoDatosPerson"
 
 function DatosCredito() {
   return (
-    <div className="SeccionCredito p-1 row">
+    <div className="SeccionCredito p-2 row">
       <h4 className="section-title my-3">
       <svg  id="creditcard" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 432c0 26.5 21.5 48 48 48h480c26.5 0 48-21.5 48-48V256H0v176zm192-68c0-6.6 5.4-12 12-12h136c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H204c-6.6 0-12-5.4-12-12v-40zm-128 0c0-6.6 5.4-12 12-12h72c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zM576 80v48H0V80c0-26.5 21.5-48 48-48h480c26.5 0 48 21.5 48 48z"/></svg>
         Datos de tu crédito:
       </h4>
-      <div class="col-12 col-md-6 mb-2">
+      <div class="col-12 col-md-6 mb-3">
         <div class="form-floating">
           <input
             type="text"
@@ -34,7 +34,7 @@ function DatosCredito() {
           <label for="CantidadSolicitada">¿Cuánto dinero necesitas?*</label>
         </div>
       </div>
-      <div class="col-12 col-md-6 mb-2">
+      <div class="col-12 col-md-6 mb-3">
         <div class="form-floating">
           <select
             class="form-select ng-pristine ng-empty ng-invalid ng-invalid-required ng-touched"
@@ -629,10 +629,10 @@ function DatosCredito() {
           <label for="Plazo">Plazo</label>
         </div>
         </div>
-        <div class="col-12 col-md-6 mb-2">
+        <div class="col-12 col-md-6 mb-3">
             <p>Tu cuota total estimada sin seguros.</p>
         </div>
-        <div class="col-12 col-md-6 mb-2">
+        <div class="col-12 col-md-6 mb-3">
             <div class="form-floating">
                 <input type="text" class="form-control ng-pristine ng-untouched ng-valid ng-valid-min ng-valid-max ng-valid-fraction" id="CuotaEstimada" name="CuotaEstimada" placeholder="Cuota Estimada" currency-symbol="$" fraction="0" ng-currency="" min="0" hard-cap="true" ng-model="Data.detalleSolicitud.CuotaEstimada" only-digits="" disabled="" />
                 <label>Cuota</label>
