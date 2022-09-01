@@ -84,7 +84,7 @@ const DatosLabo = () => {
                             </div>
                             
                         </div>
-                        <div class="col-12 col-md-5 mb-3">
+                        <div class="col-12 col-md-6 mb-3">
                             <div class="form-floating">
                                 <input type="text" class="form-control ng-pristine ng-untouched ng-valid ng-empty ng-valid-min ng-valid-max ng-valid-fraction" id="ValorBien{bien}}" name="ValorBien0" placeholder="Valor del Bien *" currency-symbol="$" fraction="0" ng-currency="" min="0" hard-cap="true" ng-model="tmp.listaBienes[bien].Valor" only-digits="" integerornull="" />
                                 <label for="ValorBien0">Valor del Bien</label>
@@ -98,28 +98,26 @@ const DatosLabo = () => {
 
                 </div>
             </fieldset>
-            <fieldset class="">
-                <div class="row contenedormovi">
-                    <div class=" col-12 movimientos-intern ">
-                        <div class="card-header ">
-                            <p class="mb-1">¿Realizas operaciones internacionales?</p>
-                            <div class="" role="group">
+        
+            <div class="col-12 contenedormovi p-2 mb-3">
+                <div class=" col-12 col-md-12 mb-3 movimientos-intern ">
+                    <div class="card-header ">
+                        <p class="col-12 col-md-12 mb-1">¿Realizas operaciones internacionales?</p>
+                        <div class="" role="group">
 
-                                <input type="radio" class="btn-check  ng-untouched ng-empty ng-invalid ng-invalid-required" name="OperacionesInternacionales" id="OpcionSiOPeraciones" ng-value="1" ng-model="Data.solicitante.solicitanteDetalle.OperacionesInternacionales" autocomplete="off" required="" value="1"/>
-                                <labe class="btn btn-outline-fz" for="OpcionSiOPeraciones" >SI </labe>
+                            <input type="radio" class="btn-check   ng-untouched ng-empty ng-invalid ng-invalid-required" name="OperacionesInternacionales" id="OpcionSiOPeraciones" ng-value="1" ng-model="Data.solicitante.solicitanteDetalle.OperacionesInternacionales" autocomplete="off" required="" value="1"/>
+                            <labe class="btn btn-outline-fz" for="OpcionSiOPeraciones" >SI </labe>
 
-                                <input type="radio" class="btn-check  ng-untouched ng-empty ng-invalid ng-invalid-required" name="OperacionesInternacionales" id="OpcionNoOPeraciones" ng-value="0" ng-model="Data.solicitante.solicitanteDetalle.OperacionesInternacionales" autocomplete="off" required="" value="0"/>
-                                <label class="btn btn-outline-fz" for="OpcionNoOPeraciones">NO </label>
-                            </div>
-                            
+                            <input type="radio" class="btn-check  ng-untouched ng-empty ng-invalid ng-invalid-required" name="OperacionesInternacionales" id="OpcionNoOPeraciones" ng-value="0" ng-model="Data.solicitante.solicitanteDetalle.OperacionesInternacionales" autocomplete="off" required="" value="0"/>
+                            <label class="btn btn-outline-fz" for="OpcionNoOPeraciones">NO </label>
                         </div>
-                        <ng-form name="subFormOpInt" class=" ng-valid">
-
-                        </ng-form>
+                        
                     </div>
-                </div>
-            </fieldset>
+                    <ng-form name="subFormOpInt" class=" ng-valid">
 
+                    </ng-form>
+                </div>
+            </div>
         </div>
 
     </div>
